@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css"> 
+    <title>Master Data</title>
+</head>
+<body>
+    <!--<div>
+        <header>           
+                <img src="./Imagens/masterDataLogo.png" alt="Master Data" class="logo">
+                <h1>Manual Sistema - Petros</h1>          
+                <nav>    
+                    <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropdownbtn">Frente de Caixa</a>
+                        <div class="dropdown-content">
+                            <a href="loginFrenteCaixa.html" >Login / Fechamento PDV</a>
+                            <a href="baixaDeAbastecimentos.html" >Baixa de Abastecimentos</a>
+                            <a href="formaRecebimento.html" >Forma de Recebimento</a>
+                            <a href="vendaDeItens.html" >Venda de Itens</a>
+                            <a href="baixaRapidaDeAbastecimentos.html" >Baixa rápida de Abastecimentos</a>
+                            <a href="cancelamentoDeVenda.html" >Cancelamento de Venda</a>
+                            <a href="nfeNoFrenteDeCaixa.html" >Emitindo NFe no PDV</a>
+                            <a href="AdiantamentoDeCliente.html" >Adiantamento de Cliente</a>
+                            <a href="monitoramentoPista.html" >Cadastro de cartão IDF no PDV</a>
+                            <a href="consultasERelatorios.html" >Consultas e Relatórios</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropdownbtn">Corporativo</a>
+                        <div class="dropdown-content">
+                            <a href="cadastropessoa.html" >Cadastro Pessoa</a>
+                            <a href="cadastrocliente.html">Cadastro Cliente</a>
+                            <a href="#">Cadastro Cliente Simplificado</a>
+                            <a href="#">Classe de Cliente</a>
+                            <a href="#">Contrato de Crédito</a>
+                            <a href="#">Cadastro de Colaborador</a>
+                            <a href="#">Cadastro de Usuário</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropdownbtn">Suprimento</a>
+                        <div class="dropdown-content">
+                            <a href="#">Cadastro de Item</a>
+                            <a href="#">Ajuste de Estoque</a>
+                        </div>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropdownbtn">L.M.C</a>
+                        <div class="dropdown-content">
+                            <a href="#">Fechamento de LMC</a>
+                            <a href="#">Movimento LMC em lote</a>
+                        </div>                
+                    </li>
+                        <li><a href="#">Sobre</a></li>
+                    </ul>
+                </nav>
+        </header>
+    </div>-->
+    <main>
+        <section class="designPagina">
+            <h2>Recebimentos</h2>
+                <p>No Frente de Caixa é possível usar diversos TIPOS DE RECEBIMENTOS ao baixar vendas. A seguir abordaremos de forma resumida cada um dos tipos ao receber uma venda.<br>
+                    Vamos simular a baixa de um abastecimento até chegarmos no momento de receber a venda e lá mostraremos os detalhes desses recebimentos numa venda ao CONSUMIDOR.</p>
+                <!--<p>Na tela ABASTECIMENTOS selecione com a barra de espaço do teclado os abastecimentos que deseja baixar manualmente. Em seguida selecione o botão BAIXA (F4).</p>
+                <img src="Assets/baixa-abastecimento/abastecimentos3.png" alt="" class="imgManual">
+                <p>Na janela Seleção de Cliente digite no campo Nome o nome do cliente ou digite o símbolo %NOME_CLIENTE para filtrar a busca. Por fim, pressione o botão F2 - Seleciona.</p>
+                <img src="Assets/baixa-abastecimento/selecaoClientes2.png" alt="" class="imgManual">
+                <p>Após escolher o cliente, aparece a janela Dados da Venda e nela você pode editar os dados do veículo, tais como Placa, Odômetro,
+                    Quilometragem e Motorista para imprimir no Cupom.</p>
+                <img src="Assets/baixa-abastecimento/dadosDaVendaCliente2.png" alt="" class="imgManual">
+                <p>O cupom começa a ser totalizado. Aqui você pode incluir mais abastecimentos, itens não combustíveis ou cancelar a venda iniciada.</p>
+                <img src="Assets/baixa-abastecimento/vendaTotalizacao.png" alt="" class="imgManual">
+                <p>Prossiga para o recebimento da venda selecionando o botão RECEBER (F10)</p>
+                <img src="Assets/baixa-abastecimento/receber.png" alt="" class="imgManual">-->
+                <p>No painel à direita temos diversas opções de TIPOS DE RECEBIMENTOS e deles derivam as mais variadas Formas de Recebimentos.</p>
+                <img src="Assets/baixa-abastecimento/tipoRecebimento1.png" alt="" class="imgManual">
+                <p>As FORMAS DE RECEBIMENTOS vêm dos tipos de recebimentos. Vejamos dois exemplos a seguir, sendo o tópico 10, uma venda baixada por Espécie de Caixa e o tópico 11, uma
+                    venda sendo baixada por Cartão de Débito</p>
+        </section> 
+        <section class="designPagina">
+            <div class="container">
+                <div class="coluna">
+                    <h4>ESPÉCIE DE CAIXA (F2)</h4>
+                    <p>Para baixar uma venda com Dinheiro basta pressionar o botão ESPÉCIE DE CAIXA (F2).</p>
+                    <img src="Assets/baixa-abastecimento/especieCaixa.png" alt="" class="imgManual">
+                    <p>No campo Valor a Receber preencha com o valor menor para completar com outro tipo; ou preencha com valor igual para completar o total da venda ou preencha com valor maior para voltar o troco.</p>
+                    <img src="Assets/baixa-abastecimento/valorReceber3.png" alt="" class="imgManual">
+
+                    <h4>CARTÃO DE DÉBITO (F3)</h4>
+                    <p>Para baixar uma venda com Cartão de Débito basta pressionar o botão CARTÃO DE DÉBITO (F3).</p>
+                    <img src="Assets/baixa-abastecimento/cartaoDebito.png" alt="" class="imgManual">
+                    <p>Na janela Forma de Recebimento escolha a bandeira do CARTÃO DE DÉBITO na lista de opções e pressione o botão F2 - Ok. Depois, no campo
+                        Valor a Receber, preencha com o valor menor para completar com outro tipo; preencha com valor igual para completar o total da venda ou preencha
+                        com valor maior para voltar o troco.</p>
+                    <img src="Assets/baixa-abastecimento/bandeiraFormaRecebimento.png" alt="" class="imgManual">
+
+                    <h4>CARTÃO DE CRÉDITO (F4)</h4>
+                    <p>Para baixar uma venda com Cartão de Crédito basta pressionar o botão CARTÃO DE CRÉDITO (F4).</p>
+                    <img src="Assets/baixa-abastecimento/cartaoCredito.png" alt="" class="imgManual">
+                    <p>Na janela Forma de Recebimento escolha a bandeira do CARTÃO DE CRÉDITO na lista de opções e pressione o botão F2 - Ok. Depois, no campo
+                        Valor a Receber, preencha com o valor menor para completar com outro tipo; preencha com valor igual para completar o total da venda ou preencha
+                        com valor maior para voltar o troco.</p>
+                    <img src="Assets/baixa-abastecimento/bandeiraFormaRecebimento1.png" alt="" class="imgManual">
+
+                </div>
+                <div class="coluna">                   
+                    <h4>VALE-FRETE (F5)</h4>
+                    <p>Para baixar uma venda com Vale-Frete basta pressionar o botão VALE-FRETE (F5)</p>
+                    <img src="Assets/baixa-abastecimento/valeFrete.png" alt="" class="imgManual">
+                    <p>Na janela Vale Frete selecione o botão F3 - Adicionar Vale Frete</p>
+                    <img src="Assets/baixa-abastecimento/valeFrete1.png" alt="" class="imgManual">
+                    <p>Na janela Forma de Recebimento escolha a CARTA FRETE e pressione o botão F2 - Ok</p>
+                    <img src="Assets/baixa-abastecimento/valeFrete2.png" alt="" class="imgManual">
+                    <p>Agora preencha os dados da CARTA FRETE e pressione o botão F2 - Ok</p>
+                    <img src="Assets/baixa-abastecimento/valeFrete3.png" alt="" class="imgManual">
+                    <p> Volte na janela Vale Frete, selecione a CARTA FRETE adicionada e pressione o botão F2 - OK.</p>
+                    <img src="Assets/baixa-abastecimento/valeFrete4.png" alt="" class="imgManual">
+                    <p>Normalmente a CARTA FRETE possui TROCO, então, na janela Troco escolha o CHEQUE TROCO ou digite o valor do VALE CRÉDITO para dar o troco ao cliente.</p>
+                    <img src="Assets/baixa-abastecimento/valeFrete5.png" alt="" class="imgManual">
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+    <div id="footer"></div>
+    <script src="javascript/menu.js"></script>
+    <p></p>
+</body>
+</html>

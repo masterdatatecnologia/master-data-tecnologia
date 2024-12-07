@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./style/style.css"> 
+    <title>Master Data</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!--  <div>
+        <header>           
+                <img src="./Imagens/masterDataLogo.png" alt="Master Data" class="logo">
+                <h1>Manual Sistema - Petros</h1>          
+                <nav>    
+                    <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropdownbtn">Frente de Caixa</a>
+                        <div class="dropdown-content">
+                            <a href="loginFrenteCaixa.html" >Login / Fechamento PDV</a>
+                            <a href="baixaDeAbastecimentos.html" >Baixa de Abastecimentos</a>
+                            <a href="formaRecebimento.html" >Forma de Recebimento</a>
+                            <a href="vendaDeItens.html" >Venda de Itens</a>
+                            <a href="baixaRapidaDeAbastecimentos.html" >Baixa rápida de Abastecimentos</a>
+                            <a href="cancelamentoDeVenda.html" >Cancelamento de Venda</a>
+                            <a href="nfeNoFrenteDeCaixa.html" >Emitindo NFe no PDV</a>
+                            <a href="AdiantamentoDeCliente.html" >Adiantamento de Cliente</a>
+                            <a href="monitoramentoPista.html" >Cadastro de cartão IDF no PDV</a>
+                            <a href="consultasERelatorios.html" >Consultas e Relatórios</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropdownbtn">Corporativo</a>
+                        <div class="dropdown-content">
+                            <a href="cadastropessoa.html" >Cadastro Pessoa</a>
+                            <a href="cadastrocliente.html">Cadastro Cliente</a>
+                            <a href="#">Cadastro Cliente Simplificado</a>
+                            <a href="#">Classe de Cliente</a>
+                            <a href="#">Contrato de Crédito</a>
+                            <a href="#">Cadastro de Colaborador</a>
+                            <a href="#">Cadastro de Usuário</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropdownbtn">Suprimento</a>
+                        <div class="dropdown-content">
+                            <a href="#">Cadastro de Item</a>
+                            <a href="#">Ajuste de Estoque</a>
+                        </div>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropdownbtn">L.M.C</a>
+                        <div class="dropdown-content">
+                            <a href="#">Fechamento de LMC</a>
+                            <a href="#">Movimento LMC em lote</a>
+                        </div>                
+                    </li>
+                        <li><a href="#">Sobre</a></li>
+                    </ul>
+                </nav>
+        </header>
+    </div>
+    -->
+    <main>
+        <section class="designPagina">
+        <h2>Baixa de Abastecimentos</h2>
+        <div class="container">
+        <div class="coluna">
+        <h5>Baixa de Abastecimentos para o CONSUMIDOR PADRÃO</h5>
+            <p>Na tela inicial do Frente de Caixa selecione o botão VENDER POR CUPOM FISCAL (F8)</p>
+            <img src="Assets/baixa-abastecimento/venderPorCupomFiscal.png" alt="" class="imgManual">
+            <p>Na tela ABASTECIMENTOS selecione com a barra de espaço do teclado os abastecimentosque deseja baixar manualmente. Em seguida selecione o botão BAIXA (F4).</p>
+            <img src="Assets/baixa-abastecimento/abastecimentos.png" alt="" class="imgManual">
+            <p>Observe que em momento algum o cliente foi escolhido e o sistema começa a totalizar o cupom para o CONSUMIDOR PADRÃO.</p>
+            <p>Nesta fase você pode incluir mais abastecimentos, itens não combustíveis ou cancelar a venda iniciada.</p>
+            <img src="Assets/baixa-abastecimento/vendaConsumidorPadrao.png" alt="" class="imgManual">
+            <p> Prossiga para o recebimento da venda selecionando o botão RECEBER (F10)</p>
+            <img src="Assets/baixa-abastecimento/receber.png" alt="" class="imgManual">
+            <p>Escolha agora o Tipo de Recebimento conforme as opções disponíveis no painel à direita</p>
+            <img src="Assets/baixa-abastecimento/tipoRecebimento.png" alt="" class="imgManual">
+            <p>Na janela Valor a Receber o sistema mostra o valor a receber da venda.</p>
+            <p>Se desejar lançar o troco (no caso do Dinheiro), informe um valor maior que tenha recebido do cliente.
+            Pressione o botão F2 - OK</p>
+            <img src="Assets/baixa-abastecimento/valorReceber.png" alt="" class="imgManual">
+            <p>Após informar o valor do recebimento o cupom é finalizado e mostra se existe troco na venda ou não.</p>
+            <img src="Assets/baixa-abastecimento/troco.png" alt="" class="imgManual">
+        </div>
+        <div class="coluna">
+        <h5>Baixa de Abastecimento para CLIENTE IDENTIFICADO</h5>
+            <p>A venda para um CLIENTE IDENTIFICADO pode ocorrer de dois modos:
+                1. Inclusão do cliente ANTES de iniciar a baixa do abastecimento;
+                2. Inclusão do cliente APÓS iniciar a baixa do abastecimento.</p>
+        <h5>Inclusão do Cliente ANTES de Iniciar a Baixa do Abastecimento</h5>
+            <p>Na janela ABASTECIMENTOS pressione o botão SELECIONAR CLIENTE (F2).</p>
+            <img src="Assets/baixa-abastecimento/selecionarCliente.png" alt="" class="imgManual">
+            <p>Na janela Seleção de Cliente digite no campo Nome o nome do cliente ou digite o símbolo
+                %NOME_CLIENTE para filtrar a busca. Por fim, pressione o botão F2 - Seleciona.</p>
+            <img src="Assets/baixa-abastecimento/selecaoClientes.png" alt="" class="imgManual">
+            <p>Perceba que no canto superior esquerdo o cliente escolhido já foi colocado no cabeçalho do
+                cupom. Nesta fase você ainda pode mudar o nome do cliente bastando pressionar
+                novamente o botão SELECIONAR CLIENTE (F2).</p>
+            <img src="Assets/baixa-abastecimento/clienteIdentificado.png" alt="" class="imgManual">
+            <p>Agora na tela ABASTECIMENTOS selecione com a barra de espaço do teclado os
+                abastecimentos que deseja baixar manualmente. Em seguida selecione o botão BAIXA (F4)</p>
+            <img src="Assets/baixa-abastecimento/abaste.png" alt="" class="imgManual">
+            <p>Após pressionar o botão BAIXA (F4) vem a janela Dados da Venda e nela você pode editar
+                os dados do veículo, tais como Placa, Odômetro, Quilometragem e Motorista para
+                imprimir no Cupom.</p>
+            <img src="Assets/baixa-abastecimento/dadosDaVendaCliente.png" alt="" class="imgManual">
+            <p>O cupom começa a ser totalizado. Aqui você pode incluir mais abastecimentos, itens não
+                combustíveis ou cancelar a venda iniciada.</p>
+            <img src="Assets/baixa-abastecimento/totalizandoVenda.png" alt="" class="imgManual">
+            <p>Prossiga para o recebimento da venda selecionando o botão RECEBER (F10).</p>
+            <img src="Assets/baixa-abastecimento/receber.png" alt="" class="imgManual">
+            <p>Escolha agora o Tipo de Recebimento conforme as opções disponíveis no painel à direita</p>
+            <img src="Assets/baixa-abastecimento/tipoRecebimento.png" alt="" class="imgManual">
+            <p>Na janela Valor a Receber o sistema mostra o valor a receber. Se desejar lançar o troco (no
+                caso do Dinheiro), informe um valor maior que tenha recebido do cliente. Pressione o botão
+                F2 – OK</p>
+            <img src="Assets/baixa-abastecimento/valorReceber1.png" alt="" class="imgManual">
+            <p>Após informar o valor do recebimento o cupom é finalizado e mostrando se existe troco ou
+                não.</p>
+            <img src="Assets/baixa-abastecimento/troco1.png" alt="" class="imgManual">
+        </div>
+        </div>
+        </section>
+        <section class="designPagina">
+        <h4>Baixando Abastecimento para CLIENTE A PRAZO</h4>
+        <div class="container">
+        <div class="coluna">
+            <p>A venda para o <strong>CLIENTE A PRAZO</strong> é a simples escolha de um tipo de recebimento <strong>A
+                PRAZO</strong> no momento em que for baixar a venda.<br>
+            O <strong>CLIENTE A PRAZO</strong> possui um cadastro prévio onde é preciso limite de crédito com
+                validade, saldo positivo e não ter débitos na empresa.<br>
+            Os tipos de recebimentos A PRAZO mais comuns são:<br>
+            <strong>NOTA A PRAZO:</strong> Neste tipo de recebimento o cliente assina uma nota para
+                pagamento mensal, quinzenal ou no prazo acordado com o cliente;<br>
+            <strong>CARTA-FRETE:</strong> A carta frete ou vale frete é um documento de frete que o
+                motorista de transportadora usa no posto, consumindo parte do valor da carta e
+                recebendo o restante em cheque troco.</p>
+            
+            <p>Na janela ABASTECIMENTOS pressione o botão SELECIONAR CLIENTE (F2).</p>
+            <img src="Assets/baixa-abastecimento/selecionarCliente.png" alt="" class="imgManual">
+            <p>Na janela Seleção de Cliente digite no campo Nome o nome do cliente ou digite o
+                símbolo %NOME_CLIENTE para filtrar a busca. Por fim, pressione o botão F6 - Detalhes
+                para consultar se o cliente se o cliente está liberado e se possui saldo para baixar a venda
+                A PRAZO.</p>
+            <img src="Assets/baixa-abastecimento/detalhesCliente.png" alt="" class="imgManual">
+            <p>No botão F6 - Detalhes verifique se o cliente possui as condições marcadas nos pontos 1 e 2 conforme abaixo.<br>
+                Se tiver as condições, em seguida pressione o botão F7 - Tipos de Recebimento<br>
+                para ver os tipos de recebimentos liberados para o cliente.</p>
+            <p>1. Situação do crédito LIBERADO;<br>
+            2. Vencimento e Limite de Crédito LIBERADO. </p>
+            <img src="Assets/baixa-abastecimento/telaDetalheCliente.png" alt="" class="imgManual">
+            <p>No botão F7 - Tipos de Recebimento veja se está liberado a opção A Prazo e o valor do crédito e a quantidade de transações restantes.<br>Ao analisar, pressione o botão Esc - Retorna para voltar à tela inicial do cliente e pressione, por fim, o botão F2 - Seleciona.</p>
+            <img src="Assets/baixa-abastecimento/creditosELimitesPorTipoRecebimentoCliente.png" alt="" class="imgManual">            
+            <p>Depois de verificar toda a situação do crédito do cliente, retorne para a tela de Seleção de Cliente e pressione o botão F2 - Seleciona.</p>
+            <img src="Assets/baixa-abastecimento/selecaoClientes1.png" alt="" class="imgManual">
+            <p>Perceba que o cabeçalho do cupom já mudou para o nome do cliente selecionado no tópico 6. Nesta fase você ainda pode trocar o cliente, bastando selecionar novamente o botão F2 - Seleciona</p>
+            <img src="Assets/baixa-abastecimento/cliente1.png" alt="" class="imgManual">
+        
+            <p>Agora na tela de ABASTECIMENTOS ou ITENS e inicie a baixa da venda. Neste exemplo vou
+                usar um abastecimento, mas a mesma funcionalidade é igual para a baixa de ITENS.<br> Em
+                seguida selecione o botão BAIXA (F4).</p>
+            <img src="Assets/baixa-abastecimento/abastecimentos1.png" alt="" class="imgManual">
+            </div>
+            <div class="coluna">
+            <p>Após pressionar o botão BAIXA (F4) pode ocorrer de serem mostrados os PROVÁVEIS
+                MOTORISTAS vinculados ao CLIENTE A PRAZO e então escolha o motorista e pressione o
+                botão F2 - Seleciona.</p>
+            <img src="Assets/baixa-abastecimento/motoristas.png" alt="" class="imgManual">
+            <p>Selecione agora o VEÍCULO DO MOTORISTA escolhido anteriormente.</p>
+            <img src="Assets/baixa-abastecimento/veiculos.png" alt="" class="imgManual">
+            <p>Após escolher o cliente, aparece a janela Dados da Venda e nela você pode editar os dados do veículo, tais como Placa, Odômetro, Quilometragem e Motorista para imprimir no
+                Cupom.</p>
+            <img src="Assets/baixa-abastecimento/dadosDaVendaCliente1.png" alt="" class="imgManual">
+            <p>O cupom começa a ser totalizado. Aqui você pode incluir mais abastecimentos, itens não
+                combustíveis ou cancelar a venda iniciada.</p>
+            <img src="Assets/baixa-abastecimento/cliente2.png" alt="" class="imgManual">
+            <p>Prossiga para o recebimento da venda selecionando o botão RECEBER (F10).</p>
+            <img src="Assets/baixa-abastecimento/receber.png" alt="" class="imgManual">
+            <p>Escolha agora o Tipo de Recebimento A PRAZO (F10) disponível no painel à direita</p>
+            <img src="Assets/baixa-abastecimento/aPrazo.png" alt="" class="imgManual">
+            <p>Na janela Valor a Receber o sistema mostra o valor a receber e essa forma de recebimento não admite troco. Pressione o botão F2 - OK.</p>
+            <img src="Assets/baixa-abastecimento/valorReceber2.png" alt="" class="imgManual">
+            <p>Após informar o valor do recebimento o cupom é finalizado mostrando o Tipo de Recebimento A PRAZO.</p>
+            <img src="Assets/baixa-abastecimento/vendaPrazo.png" alt="" class="imgManual">
+        </div>
+        </div>
+        </section>   
+        
+
+    </main>
+    <div id="footer"></div>
+    <script src="javascript/menu.js"></script>
+    <p></p>
+</body>
+</html>

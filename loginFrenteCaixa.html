@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./style/style.css"> 
+    <title>Master Data</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="home">
+  <!--  <div>
+        <header>           
+                <img src="./Imagens/masterDataLogo.png" alt="Master Data" class="logo">
+                <h1>Manual Sistema - Petros</h1>          
+                <nav>    
+                    <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropdownbtn">Frente de Caixa</a>
+                        <div class="dropdown-content">
+                            <a href="loginFrenteCaixa.html" >Login / Fechamento PDV</a>
+                            <a href="baixaDeAbastecimentos.html" >Baixa de Abastecimentos</a>
+                            <a href="formaRecebimento.html" >Forma de Recebimento</a>
+                            <a href="vendaDeItens.html" >Venda de Itens</a>
+                            <a href="baixaRapidaDeAbastecimentos.html" >Baixa rápida de Abastecimentos</a>
+                            <a href="cancelamentoDeVenda.html" >Cancelamento de Venda</a>
+                            <a href="nfeNoFrenteDeCaixa.html" >Emitindo NFe no PDV</a>
+                            <a href="AdiantamentoDeCliente.html" >Adiantamento de Cliente</a>
+                            <a href="monitoramentoPista.html" >Cadastro de cartão IDF no PDV</a>
+                            <a href="consultasERelatorios.html" >Consultas e Relatórios</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropdownbtn">Corporativo</a>
+                        <div class="dropdown-content">
+                            <a href="cadastropessoa.html" >Cadastro Pessoa</a>
+                            <a href="cadastrocliente.html">Cadastro Cliente</a>
+                            <a href="#">Cadastro Cliente Simplificado</a>
+                            <a href="#">Classe de Cliente</a>
+                            <a href="#">Contrato de Crédito</a>
+                            <a href="#">Cadastro de Colaborador</a>
+                            <a href="#">Cadastro de Usuário</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropdownbtn">Suprimento</a>
+                        <div class="dropdown-content">
+                            <a href="#">Cadastro de Item</a>
+                            <a href="#">Ajuste de Estoque</a>
+                        </div>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropdownbtn">L.M.C</a>
+                        <div class="dropdown-content">
+                            <a href="#">Fechamento de LMC</a>
+                            <a href="#">Movimento LMC em lote</a>
+                        </div>                
+                    </li>
+                        <li><a href="#">Sobre</a></li>
+                    </ul>
+                </nav>
+        </header>
+    </div>
+    -->
+    <main>
+        <section class="designPagina">
+            <h2>Abertura e Fechamento de Caixa</h2><br><br><br>
+                <!--<p class="center">A partir de agora você verá de forma prática como operar o Frente de Caixa.</p>
+                <p class="center">Acompanhe a seguir todo o passo a passo de cada rotina no PDV desde a entrada no sistema até o encerramento do caixa.</p>-->
+        <div class="container">      
+        <div class="coluna">
+            
+            <h4>Login no sistema</h4>
+                <p>1º Dê um duplo clique no ícone do Frente de Caixa na área de trabalho do PDV</p>
+                <img src="Assets/login-suprimento/iconeFrenteCaixa.png" alt="" class="imgManual">
+                <p>2º Após abrir o Frente de Caixa, selecione na tela inicial o botão LOGIN (CTRL + L)</p>
+                <img src="Assets/login-suprimento/login.png" alt="" class="imgManual">
+                <p>3º Escolha o seu NOME na lista de usuários, DIGITE A SENHA e selecione o botão F2 – OK.</p>
+                <img src="Assets/login-suprimento/selecaoUsuario.png" alt="" class="imgManual">
+        </div>                    
+        <div class="coluna">
+            <h4>Abertura do Caixa</h4>
+                <p>4º Na tela inicial do Frente de Caixa selecione o botão ABRIR MOVIMENTO (CTRL + A).</p>
+                <img src="Assets/login-suprimento/abrirMovimento.png" alt="" class="imgManual">
+                <p>5º O sistema pergunta se deseja abrir o movimento. Clique na opção Sim da mensagem.</p>
+                <img src="Assets/login-suprimento/confirmarAbrirMovimento.png" alt="" class="imgManual">
+            <h4>Fechamento de Caixa</h4>
+                <p> Encerradas as atividades no Frente de Caixa e finalizada a jornada de trabalho, o atendente deve Fechar o Movimento de Venda para que sejam feitas as conferencias dos valores
+                    recebidos e das operaçoes realizadas durante o dia ou turno.</p>
+                <p>Na tela inicial do Frente de Caixa selecione o botao FECHAR MOVIMENTO (CTRL + A)</p>
+                <img src="Assets/baixa-abastecimento/fecharMovimento.png" alt="" class="imgManual">
+                <p> O sistema exibe mensagem de confirmaçao e pergunta de deseja imprimir o relatorio  gerencial do fechamento. Selecione Sim.</p>
+                <img src="Assets/baixa-abastecimento/confirmarFecharCaixa.png" alt="" class="imgManual">
+                <p>Em seguida o sistema mostra a janela Relatorio de Vendas e voce tem a opçao de imprimir ou nao.</p>
+                <img src="Assets/baixa-abastecimento/relatorioFechamentoDeCaixa.png" alt="" class="imgManual">
+        </div>
+        </div>
+    </section>
+    <section class="designPagina">
+        <div class="container">
+        <div class="coluna">    
+            <h4>Registro do Suprimento</h4>
+                <p>O SUPRIMENTO é o ato de depositar dinheiro no caixa do atendente para compor o fundo
+                    de caixa para troco ou para o fornecimento de adiantamentos a clientes e vales aos funcionários.</p>
+                <p>Há duas situações possíveis para registrar o SUPRIMENTO no Frente de Caixa.</p>
+                <p>1. Suprimento na abertura do caixa: é opcional e pré-definido no Retaguarda;<br>
+                    2. Suprimento no caixa aberto: o caixa está aberto e falta fundo para troco/adiantamento
+                    de cliente/vales funcionários</p><br>
+                <h4>Suprimento na Abertura do Caixa</h4>
+                <p>Ao abrir o movimento o sistema mostra a janela Registrar Suprimento. Se desejar
+                    registrar neste momento então digite os campos Valor e Observação e pressione o botão F2 – OK.<br>
+                    Se não desejar registrar, pressione o botão Esc – Cancela</p>
+                <img src="Assets/login-suprimento/suprimento.png" alt="" class="imgManual">
+                <p>O sistema exibe mensagem de confirmação e imprime o comprovante do SUPRIMENTO
+                    indicando o valor, a data, o turno e o nome do atendente.</p>
+                <!-- <img src="Assets/login-suprimento/comprovanteSuprimento.png" alt="" class="imgManual"> -->
+        </div>
+        <div class="coluna"> 
+            <h4>Suprimento no Caixa Aberto</h4>
+                <p>Se no decorrer do turno aberto houver a necessidade de registrar um SUPRIMENTO, volte
+                    a tela inicial do Frente de Caixa e selecione o botão REGISTRAR SUPRIMENTO (CTRL +
+                    S).</p>
+                <img src="Assets/login-suprimento/suprimentoCaixaAberto.png" alt="" class="imgManual">
+                <p>Na janela Registrar Suprimento digite os campos Valor e Observação e pressione o botão
+                    F2 – OK para confirmar.</p>
+                <img src="Assets/login-suprimento/registroSuprimento.png" alt="" class="imgManual">
+                <p>O sistema exibe mensagem de confirmação e imprime o comprovante do SUPRIMENTO
+                    indicando o valor, a data, o turno e o nome do atendente.</p>
+        </div>
+        </div>
+    </section> 
+    <section class="designPagina">
+            <h2>Registro de Sangria</h2>
+            <p> A SANGRIA e o ato de retirar especie do caixa a partir das vendas recebidas e tambem dos
+            adiantamentos recebidos de clientes,<br> que tem a finalidade de conferir segurança para os caixas
+            da empresa, evitando que o atendente acumule grandes somas de dinheiro.</p>
+            <p> Ha duas situaçoes possíveis para registrar a SANGRIA no Frente de Caixa.<br> Sao elas:<br>
+            Sangria no caixa aberto: o caixa esta aberto e ja acumula uma grande soma de dinheiro recebido das vendas/adiantamento de cliente;<br>
+            Sangria no fechamento do caixa: e opcional e pre-definido no Retaguarda.
+            </p>
+        <div class="container">
+            <div class="coluna">
+                <h4> Sangria no Caixa Aberto</h4>
+                <p>Se no decorrer do turno aberto houver a necessidade de registrar uma SANGRIA, volte na tela inicial do Frente de Caixa e selecione o botao REGISTRAR SANGRIA (CTRL + G).</p>
+                <img src="Assets/baixa-abastecimento/sangria.png" alt="" class="imgManual">
+                <p>Na janela Registrar Sangria digite os campos Valor e Observação e pressione o botao F2 OK para confirmar.</p>
+                <img src="Assets/baixa-abastecimento/registrarSangria.png" alt="" class="imgManual">
+                <p>O sistema exibe mensagem de confirmaçao e imprime o comprovante da SANGRIA indicando o valor, a data, o turno e o nome do atendente.</p>
+                <img src="Assets/baixa-abastecimento/comprovanteSangria.png" alt="" class="imgManual">
+            </div>
+            <div class="coluna">
+                <h4>Sangria no Fechamento do Caixa</h4>
+                <p> Ao FECHAR o movimento o sistema mostra a janela Registrar Sangria. Se desejar registrar
+                    neste momento entao digite os campos Valor e Observação e pressione o botao F2 – OK.
+                    Se nao desejar registrar, pressione o botao Esc – Cancela.</p>
+                <img src="Assets/baixa-abastecimento/registrarSangria1.png" alt="" class="imgManual">
+                <p>O sistema exibe mensagem de confirmaçao e imprime o comprovante da SANGRIA
+                    indicando o valor, a data, o turno e o nome do atendente.</p>
+                <img src="Assets/baixa-abastecimento/comprovanteSangria1.png" alt="" class="imgManual">
+            </div>
+
+        </div>
+
+    </section>   
+    </main>
+    <div id="footer"></div>
+    <script src="javascript/menu.js"></script>
+    <p></p>
+</body>
+</html>
